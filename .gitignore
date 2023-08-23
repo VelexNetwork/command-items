@@ -1,15 +1,5 @@
-# IntelliJ
-.idea/
-*.iml
-out/
+# Ignore Gradle project-specific cache directory
+.gradle
 
-# Vim
-*~
-*swp
-
-# Gradle
-.gradle/
-build/
-
-# Test environment
-testenv/
+# Ignore Gradle build output directory
+build
