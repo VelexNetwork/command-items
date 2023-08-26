@@ -26,7 +26,7 @@ public interface ConfModel {
       true,
       0,
       false, false,
-      0, 0, 0,
+      0, 0,
       List.of()
     ));
   }
