@@ -4,7 +4,7 @@ plugins {
   `java-library`
 }
 
-java.toolchain.languageVersion.set(JavaLanguageVersion.set(17))
+java.toolchain.languageVersion.set(JavaLanguageVersion.of(17))
 
 repositories {
   mavenLocal()
