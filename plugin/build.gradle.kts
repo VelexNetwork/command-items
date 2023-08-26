@@ -6,6 +6,8 @@ plugins {
 }
 
 dependencies {
+  api(project(":api"))
+  
   compileOnly(libs.purpur)
   
   compileOnly(libs.dazzleconf)
